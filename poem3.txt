@@ -1,0 +1,18 @@
+7e4f6a8 (HEAD -> master) HEAD@{0}: reset: moving to HEAD@{7}
+ede89a0 HEAD@{1}: merge draft: Merge made by the 'ort' strategy.
+7e4f6a8 (HEAD -> master) HEAD@{2}: checkout: moving from draft to master
+84fa726 (draft) HEAD@{3}: checkout: moving from master to draft
+7e4f6a8 (HEAD -> master) HEAD@{4}: checkout: moving from 7e4f6a89b7b1e9f8580b90ceba83bba752eda37a to master
+7e4f6a8 (HEAD -> master) HEAD@{5}: checkout: moving from draft to 7e4f6a89b7b1e9f8580b90ceba83bba752eda37a
+84fa726 (draft) HEAD@{6}: commit: M poem1.txt, poem2.txt into (B) draft
+7e4f6a8 (HEAD -> master) HEAD@{7}: checkout: moving from master to draft
+7e4f6a8 (HEAD -> master) HEAD@{8}: commit: M poem1.txt,poem2.txt at (B) master
+b6438ef HEAD@{9}: commit: init X commit to add poem1.txt, poem2.txt into repository
+283b094 HEAD@{10}: commit (initial): initial commit
+
+USER@DESKTOP-7NFSD4L MINGW64 /d/usb64G/gitLearn/_VS/ch13 (master)
+$ git log --graph --all --oneline
+* 84fa726 (draft) M poem1.txt, poem2.txt into (B) draft
+* 7e4f6a8 (HEAD -> master) M poem1.txt,poem2.txt at (B) master
+* b6438ef init X commit to add poem1.txt, poem2.txt into repository
+* 283b094 initial commit
