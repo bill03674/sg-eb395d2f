@@ -1,1 +1,1 @@
-# sg-eb395d2f
+It's important for me to use smart Git to control my project version.
